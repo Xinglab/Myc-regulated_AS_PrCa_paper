@@ -38,7 +38,6 @@ g.mid<-ggplot(t.d,aes(x=1,y=t$V1))+geom_text(aes(label=t.d$V7, lineheight = 0.7)
         plot.margin = unit(c(14.2,-30,6.5,-95), "mm")
         )
 
-g.mid
 ## left barplot
 v.d<-as.data.frame(cbind(rev(seq.int(t.d$V4)),-log10(t.d$V4+10^-15),rep('GOterms',length(t.d$V4))))
 g1 <-ggplot(v.d,aes(x=v.d$V3,y=as.numeric(as.character(v.d$V1)),size=as.numeric(as.character(v.d$V2))))+
@@ -57,13 +56,8 @@ g1 <-ggplot(v.d,aes(x=v.d$V3,y=as.numeric(as.character(v.d$V1)),size=as.numeric(
         plot.title = element_text(size = 9,vjust=0.5, hjust=0.5,angle = 90),
         plot.margin = unit(c(1,7,5.8,-10), "mm"),
         legend.title=element_blank()) +
-  #coord_flip(ylim=c(0.05,max(abs(-log10(t.d$V4+10^-15))))) + 
- # scale_y_reverse() +
-  #geom_hline(yintercept=log2(1.5), linetype='dashed', colour='grey50') +
  theme(legend.position='none')
-  #theme(legend.position=c(0.001,0.06), legend.justification=c(0,0), legend.key.size = unit(2, "mm"))+
 
-g1
 ## right barplot
 g2 <- ggplot(data = t.d, aes(x = t.d$V1, y = t.d$V3+10^-15)) +xlab(NULL)+
   geom_bar(stat = "identity", colour='black',fill='white', width=0.5) + ggtitle("# Events") +
@@ -81,10 +75,7 @@ g2 <- ggplot(data = t.d, aes(x = t.d$V1, y = t.d$V3+10^-15)) +xlab(NULL)+
         legend.title=element_blank()) +
   coord_flip(ylim=c(0.3,1500)) +
   theme(legend.position='none')
-  #geom_hline(yintercept=log2(1.5), linetype='dashed', colour='grey50') +
-  #theme(legend.position=c(1,0.02), legend.justification=c(1,0), legend.key.size = unit(3, "mm")) #+
-g2
-#guides(fill=F)
+
 
 mat = read.table('merged.shared.50_HallmarksExonCorMatrix.txt',sep='\t', header=T,check.names = F)
 mar.r=cbind(AS_events=mat[,1],mat[,ncol(mat):2])
