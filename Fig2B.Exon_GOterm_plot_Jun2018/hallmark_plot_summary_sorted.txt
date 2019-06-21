@@ -1,0 +1,50 @@
+Hallmark E2F Targets	Oncogene signaling	1331	0	mRNA binding	Selected
+Hallmark G2M Checkpoint	Oncogenic processes	1316	0	mRNA binding	Unselected
+Hallmark Mitotic Spindle	Oncogenic processes	1214	0	mRNA binding	Unselected
+Hallmark Oxidative Phosphorylation	Metabolism	1062	0.000214543	double-stranded RNA binding	Unselected
+Hallmark Myc Targets V2	Oncogene signaling	1040	0	mRNA binding	Selected
+Hallmark Mtorc1 Signaling	Oncogene signaling	942	0	mRNA binding	Selected
+Hallmark Dna Repair	Oncogenic processes	817	0	mRNA binding	Unselected
+Hallmark Estrogen Response Late	Negative sets	701	1.33E-08	double-stranded RNA binding	Unselected
+Hallmark Androgen Response	Oncogene signaling	646	0.001310182	double-stranded RNA binding	Selected
+Hallmark Glycolysis	Metabolism	498	0	mRNA binding	Unselected
+Hallmark Unfolded Protein Response	Metabolism	473	5.43E-12	mRNA binding	Unselected
+Hallmark Myogenesis	Negative sets	431	5.05E-13	anchoring junction	Unselected
+Hallmark Adipogenesis	Metabolism	412	2.16E-09	anchoring junction	Unselected
+Hallmark Myc Targets V1	Oncogene signaling	386	6.92E-14	mRNA binding	Unselected
+Hallmark Hedgehog Signaling	Oncogene signaling	364	0	mRNA binding	Selected
+Hallmark Spermatogenesis	Negative sets	337	0.052696672	extracellular vesicular exosome	Unselected
+Hallmark Estrogen Response Early	Negative sets	308	0.000219714	cell-substrate junction	Unselected
+Hallmark Heme Metabolism	Negative sets	244	1.02E-05	cell-substrate junction	Unselected
+Hallmark Coagulation	Negative sets	222	0.034493883	mRNA binding	Unselected
+Hallmark Uv Response Dn	Oncogenic processes	208	0.000172394	anchoring junction	Unselected
+Hallmark Interferon Alpha Response	Inflammation	201	1.31E-10	miRNA binding	Unselected
+Hallmark Hypoxia	Oncogenic processes	195	2.94E-08	anchoring junction	Unselected
+Hallmark Apical Junction	Negative sets	182	1.49E-06	anchoring junction	Unselected
+Hallmark Bile Acid Metabolism	Negative sets	181	0.023734421	ubiquitin protein ligase activity	Unselected
+Hallmark Apoptosis	Oncogenic processes	174	4.46E-05	anchoring junction	Unselected
+Hallmark Complement	Negative sets	170	0.028543821	endoplasmic reticulum membrane	Unselected
+Hallmark Protein Secretion	Metabolism	147	0.073295185	neg regulation of transcription from RNA PolI promoter	Unselected
+Hallmark Uv Response Up	Oncogenic processes	133	0.00069196	telomerase RNA binding	Unselected
+Hallmark Kras Signaling Up	Oncogene signaling	132	0.023183546	telomerase RNA binding	Unselected
+Hallmark Notch Signaling	Oncogene signaling	127	8.90E-09	anchoring junction	Selected
+Hallmark Epithelial Mesenchymal Transition	Oncogenic processes	120	0.000612094	anchoring junction	Unselected
+Hallmark Angiogenesis	Oncogenic processes	114	0.003776702	cytosol	Unselected
+Hallmark Tgf Beta Signaling	Inflammation	109	0.021643307	cell-substrate junction	Unselected
+Hallmark Kras Signaling Dn	Oncogene signaling	108	0.01671415	mitochondrion	Unselected
+Hallmark Xenobiotic Metabolism	Oncogenic processes	103	0.006907318	endoplasmic reticulum membrane	Unselected
+Hallmark P53 Pathway	Oncogene signaling	103	2.48E-05	anchoring junction	Unselected
+Hallmark Inflammatory Response	Inflammation	103	0.017131112	mRNA binding	Unselected
+Hallmark Wnt Beta Catenin Signaling	Oncogene signaling	101	0.000127628	anchoring junction	Unselected
+Hallmark Allograft Rejection	Negative sets	100	0.000286293	"translation factor activity, RNA binding"	Unselected
+Hallmark Peroxisome	Negative sets	82	0.048257605	post-translational protein modification	Unselected
+Hallmark Tnfa Signaling Via Nfkb	Inflammation	72	0.003577254	synapse part	Unselected
+Hallmark Fatty Acid Metabolism	Metabolism	69	2.44E-05	cell-substrate junction	Unselected
+Hallmark Pancreas Beta Cells	Negative sets	66	0.009642139	neg regulation of canonical Wnt pathway...pancreatic B cell proliferation	Unselected
+Hallmark Apical Surface	Negative sets	63	1.12E-07	cell-substrate junction	Unselected
+Hallmark Il6 Jak Stat3 Signaling	Inflammation	52	0.027201444	vacuolar part	Unselected
+Hallmark Interferon Gamma Response	Inflammation	50	0.000603179	synapse part	Unselected
+Hallmark Il2 Stat5 Signaling	Inflammation	50	0.001553194	pos regulation of canonical Wnt pathway...pancreatic B cell proliferation	Unselected
+Hallmark Pi3K Akt Mtor Signaling	Oncogene signaling	49	0.007591163	I-kappaB phosphorylation	Unselected
+Hallmark Reactive Oxigen Species Pathway	Metabolism	37	0.003455819	calmodulin-dependent protein kinase activity	Unselected
+Hallmark Cholesterol Homeostasis	Negative sets	12	0.011379478	protein deubiquitination...ubiquitin-dependent protein catabolic process	Unselected
