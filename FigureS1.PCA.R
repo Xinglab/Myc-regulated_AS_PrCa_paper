@@ -20,9 +20,6 @@ d.membered <- cbind(label_file,t(d.num))[-which(label_file[,1]==13|label_file[,1
 
 color_t <- d.membered[,1]
 stage<-d.membered[,2]
-#color_t<-sort(d.membered[,1])
-#d.sorted <- d.membered[order(d.membered[,1]),] # sort samples by 1-14.
-#d.t<-as.matrix(d.sorted[,-1])
 d.t<-as.matrix(d.membered[,c(-1,-2)])
 dim(d.t)
 ##Missing data imputation##
