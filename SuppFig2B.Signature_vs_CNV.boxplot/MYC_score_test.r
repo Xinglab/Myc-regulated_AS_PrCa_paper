@@ -1,4 +1,4 @@
-data <- read.table("HALLMARK_MYC_TARGETS_V2.scores.txt.fix",header = F,stringsAsFactors = F)
+data <- read.table("HALLMARK_MYC_TARGETS_V2.scores.txt",header = F,stringsAsFactors = F)
 patient <- read.table("PATIENT_DATA_oncoprint.tsv",header = F,stringsAsFactors = F,sep = '\t')
 t.patient <- t(patient)
 data[,1] <- gsub("-01A", "", data[,1])
