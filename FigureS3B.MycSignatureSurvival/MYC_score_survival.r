@@ -1,7 +1,6 @@
 library(survival)
 library(survminer)
 data <- read.table("HALLMARK_MYC_TARGETS_V2.scores.txt",header = F,stringsAsFactors = F)
-#surviv_file <- 'PRAD_OS.txt'
 surviv_file <-'PRAD_DFS.txt'
 surviv <- as.data.frame(read.table(surviv_file, stringsAsFactors = FALSE, header = T))
 patient <- read.table("PATIENT_DATA_oncoprint.tsv",header = F,stringsAsFactors = F,sep = '\t')
@@ -29,7 +28,6 @@ cutoff
 cutoff.low<-quantile(signature_score,0.75)
 cutoff.low
 primary$cluster[primary[,3]>cutoff]<-'High Myc (upper quartile)'
-#primary$cluster[primary[,3]>cutoff.low & primary[,3]<cutoff]<-'Med'
 primary$cluster[primary[,3]<cutoff.low]<-'Low Myc (lower half)'
 fit <- survfit(Surv(primary$V7, primary$V8) ~ primary$V10, data = primary, type=c('kaplan-meier'))
 p<-ggsurvplot(fit, data = primary, font.tickslab = c(11), font.x = c(14),font.y = c(14) ,ylab='Survival Probability', xlab='Time (Months)',pval = T,conf.int = F,
