@@ -1,15 +1,8 @@
 library('gplots')
 require("DMwR")
-require('Rtsne')
 
 ##Load color value list##
-
 label_file<-read.table('../psi.matrix/tissue/label.stdNull.na0.05.cov10.splcing.merged_matrix.tissue.txt',header=F)
-
-palette(c("chocolate2", "darkorchid3", 'lightblue','deepskyblue',"darkolivegreen3","grey","darkgrey","black","darkred","pink","darkgreen","goldenrod2","goldenrod4","red","mediumorchid1","darkslategray3"))
-leg_sample_tissue=c("Normal-GTEx (119)","Benign-TCGA (52)","Primary-TCGA (499)","CRPC-Beltran (34)","CRPC-Robinson (90)","CRPC-SU2C (60)","NE-SU2C (8)","NE-Beltran (15)")
-leg_color_tissue=c("darkolivegreen3", "pink","chocolate2","darkred","red","mediumorchid1","darkslategray3","darkgreen")
-
 
 ##Load PSI value matrix##
 d <- read.table("../psi.matrix/tissue/stdNull.na0.05.cov10.splcing.merged_matrix.tissue.txt",header=T,sep="\t",stringsAsFactors=F)
@@ -22,6 +15,12 @@ color_t <- d.membered[,1]
 stage<-d.membered[,2]
 d.t<-as.matrix(d.membered[,c(-1,-2)])
 dim(d.t)
+
+##Assign Colors
+palette(c("chocolate2", "darkorchid3", 'lightblue','deepskyblue',"darkolivegreen3","grey","darkgrey","black","darkred","pink","darkgreen","goldenrod2","goldenrod4","red","mediumorchid1","darkslategray3"))
+leg_sample_tissue=c("Normal-GTEx (119)","Benign-TCGA (52)","Primary-TCGA (499)","CRPC-Beltran (34)","CRPC-Robinson (90)","CRPC-SU2C (60)","NE-SU2C (8)","NE-Beltran (15)")
+leg_color_tissue=c("darkolivegreen3", "pink","chocolate2","darkred","red","mediumorchid1","darkslategray3","darkgreen")
+
 ##Missing data imputation##
 d.impute<-knnImputation(d.t)
 
