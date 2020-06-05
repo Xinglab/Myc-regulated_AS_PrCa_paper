@@ -16,6 +16,4 @@ Yang Pan <panyang@ucla.edu>
 Yi Xing <yxing@ucla.edu>
 
 ### Citation
-Manuscript in submission. 
-
-Authors: John W. Phillips, Yang Pan ... Douglas L. Black, Owen N. Witte, Yi Xing 
+Phillips J.W.\*, Pan Y.\*,  Tsai B.L., Xie Z., Demirdjian L., Xiao W., Yang H.T., Zhang Y., Lin C.H., Cheng D., Hu Q., Liu S., Black D.L., Witte O.N.+, Xing Y.+ (2020) Pathway-guided analysis identifies Myc-dependent alternative pre-mRNA splicing in aggressive prostate cancers. PNAS, 117(10):5269-79 (+ joint corresponding authors; * joint first authors)
