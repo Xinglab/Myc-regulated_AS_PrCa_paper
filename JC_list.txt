@@ -1,0 +1,3 @@
+/full_path/group1/JC.raw.input.SE.txt
+/full_path/group2/JC.raw.input.SE.txt
+/full_path/group3/JC.raw.input.SE.txt

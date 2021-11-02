@@ -1,0 +1,3 @@
+/full_path/group1/fromGTF.SE.txt
+/full_path/group2/fromGTF.SE.txt
+/full_path/group3/fromGTF.SE.txt

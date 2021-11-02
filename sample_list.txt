@@ -1,0 +1,3 @@
+/full_path/BAM_list_group1
+/full_path/BAM_list_group2
+/full_path/BAM_list_group3
